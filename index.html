@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="favicon" href="/favicon.ico">
+    <link rel="stylesheet" href="/style.css">
+    <title>Resume</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="right_container">
+            <h1 class="heading">Hello! Please tell me a little <br> bit about yourself</h1>
+            <form action='/Generated.html'>
+                <div class="content">
+                    <label for="name" class="name">Name</label>
+                    <input type="text" placeholder="Enter your Name" id="name" required>
+
+                    <label for="#" class="email">Email</label>
+                    <input type="email" placeholder="Enter your Email" id="email" required>
+                    <label for="#">Photo</label>
+                    <input type="file" accept=".jgpeg, .jpg, .png" name="file" id="photo">
+
+                    <label for="#" class="dob">Date of Birth</label>
+                    <input type="date" value="2003-05-19" max="2005-12-31" id="dob" required>
+
+                    <label for="#" class="edu">Education Qualification</label>
+                    <select id="edu" class="education">
+                        <option value="10th Pass">10th Pass</option>
+                        <option value="12th Pass">12th Pass</option>
+                        <option value="Diploma">Diploma</option>
+                        <option value="Graduate">Graduate</option>
+                    </select>
+
+                    <label for="#" class="eq">Experience </label>
+                    <select id="exp" class="experience">
+                        <option value="0-2">0-2 Years</option>
+                        <option value="3-5">3-5 Years</option>
+                        <option value="6-8">6-8 Years</option>
+                        <option value=">8">>8 Years</option>
+                    </select>
+
+                    <input type="submit" value="Generate" onclick="passValue();" class="Generate">
+            </form>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+<script src="/main.js"></script>
+
+</html>

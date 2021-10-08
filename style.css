@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial';
+    background: linear-gradient(to bottom right, #ff9b19, #e01559);
+
+}
+
+#name {
+    text-transform: uppercase;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+input,
+select {
+    padding: 8px 4px;
+    margin: 10px 0;
+    font-size: 16px;
+
+}
+
+input:focus {
+    border: 2px solid #ffa500;
+}
+
+.content {
+    display: grid;
+    margin: 0 1.6em;
+    padding: 0 4em;
+}
+
+.heading {
+    margin: 2rem 0 1rem 0;
+    padding: 0 2rem;
+    word-spacing: 1px;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    text-align: center;
+
+}
+
+.right_container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ffffff;
+    margin: 2em 0;
+    padding: 0.2rem 0 2em 0;
+}
+
+.Generate {
+    border: none;
+    outline: none;
+    padding: 0.7rem 0;
+    background: linear-gradient(to bottom right, #ff9b19, #e01559);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    word-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 1rem 2em 0 2em;
+    border-radius: 25px;
+}
+
+.Generate:hover {
+    background: linear-gradient(to bottom right, #e01559, #ff9b19);
+
+}
