@@ -5,7 +5,7 @@
 <br>
 <h4> It is pretty easy to use too </h4>
 <br>
-<h4> To start working on it all you need is to:  </h4>
+<h4> To start working on it all you need is to 👇 </h4>
 <ol>
   <li>Fork the repository</li>
   <li>Clone the repository on your system</li>
