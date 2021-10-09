@@ -6,25 +6,28 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/generated_style.css">
         <title>Generated Result</title>
+        
 </head>
 
 <body>
-    <h1>Resume</h1>
-    <h2>
+    <h1 class="top-heading">Resume</h1>
+</center>
+    <h2 class="name">
         Name :- <span id="resume-name"></span>
     </h2>
-    <h2>
+    <h2 class="email">
         Email :- <span id="resume-email"></span>
     </h2>
 
-    <h2>
+    <h2 class="dob">
         Date of Birth :- <span id="resume-date_of_birth"></span>
     </h2>
-    <h2>
+    <h2 class="edu">
         Education:- <span id="resume-edu"></span>
     </h2>
-    <h2>
+    <h2 class="exp">
         Experience :- <span id="resume-exp"></span>
     </h2>
 
@@ -35,7 +38,7 @@
         document.getElementById('resume-edu').innerHTML = sessionStorage.getItem("edu");
         document.getElementById('resume-exp').innerHTML = sessionStorage.getItem("exp");
     // </script>
-    </center>
+
 </body>
 
 </html>
