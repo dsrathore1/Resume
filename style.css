@@ -64,6 +64,16 @@ input:focus {
     padding: 0.2rem 0 2em 0;
 }
 
+.right_container:hover {
+  cursor: pointer;
+}
+
+.right_container:hover {
+  transform: skewY(10deg);
+  transform: translateX(20px) scale(0.9) translateY(10px) skew(1.5deg);
+}
+
+
 .Generate {
     border: none;
     outline: none;
