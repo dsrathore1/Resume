@@ -65,13 +65,15 @@ input:focus {
 }
 
 .right_container:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .right_container:hover {
-  transform: skewY(10deg);
-  transform: translateX(20px) scale(0.9) translateY(10px) skew(1.5deg);
+    transform: skewY(10deg);
+    transform: translateX(20px) scale(0.9) translateY(10px) skew(1.5deg);
 }
+
+
 
 
 .Generate {

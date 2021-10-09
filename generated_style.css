@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+
+.top-heading{
+    width: 100%;
+    padding: 1rem;
+    background-color: bisque;
+}
+
+.name {
+    margin: 1.4rem;
+}
+
+.email{
+    margin: 1.4rem;
+}
+
+.dob{
+    margin: 1.4rem;
+}
+
+.edu{
+    margin: 1.4rem;
+}
+
+.exp{
+    margin: 1.4rem;
+}
